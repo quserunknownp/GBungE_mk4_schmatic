@@ -432,6 +432,10 @@
     [
       "0e694ed7-c4b2-4db4-bb1e-02df9b7640f3",
       "logger"
+    ],
+    [
+      "a2257738-988b-4c05-a9d8-cdd2f99f1bd1",
+      "LV_battery2"
     ]
   ],
   "text_variables": {}

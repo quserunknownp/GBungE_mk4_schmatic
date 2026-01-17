@@ -271,13 +271,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "96406296-23e4-4249-9887-0769daca7768")
+			(uuid "c8b838f5-7a1f-463a-9b43-83095b316560")
 		)
 		(pin "1"
-			(uuid "dbded4fa-b56c-4f58-819e-23cea83c977b")
+			(uuid "c943b541-f1d0-4594-9f12-39083e646b1a")
 		)
 		(instances
 			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/a2257738-988b-4c05-a9d8-cdd2f99f1bd1"
+					(reference "BT46")
+					(unit 1)
+				)
 				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/db4835a0-391c-430e-bf67-929d80bdebb5"
 					(reference "BT42")
 					(unit 1)
@@ -341,13 +345,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "63ddbe94-5b04-4088-9552-9793c90ebfbc")
+			(uuid "2442a77c-c055-420d-b19c-aa3a834d80d5")
 		)
 		(pin "1"
-			(uuid "c03ef02a-48ed-4f23-a1cc-555ac750c038")
+			(uuid "9c7fe885-deb3-4ec8-9846-f093ae7d7b01")
 		)
 		(instances
 			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/a2257738-988b-4c05-a9d8-cdd2f99f1bd1"
+					(reference "BT45")
+					(unit 1)
+				)
 				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/db4835a0-391c-430e-bf67-929d80bdebb5"
 					(reference "BT41")
 					(unit 1)
@@ -411,13 +419,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdf6dca7-3876-4f65-9661-2d1619166ec8")
+			(uuid "300079f6-3357-47d1-93fb-01550d2b741a")
 		)
 		(pin "1"
-			(uuid "00d60ef3-4da4-4a47-b6fe-0e03e8628268")
+			(uuid "9a315caf-b9b9-4831-a3e0-e9dd35b57735")
 		)
 		(instances
 			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/a2257738-988b-4c05-a9d8-cdd2f99f1bd1"
+					(reference "BT48")
+					(unit 1)
+				)
 				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/db4835a0-391c-430e-bf67-929d80bdebb5"
 					(reference "BT44")
 					(unit 1)
@@ -481,13 +493,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9d5b600-7860-4e9b-a194-06f7c05b5d56")
+			(uuid "92101cc7-e7e3-408a-ac0e-d4b7dbea2e8c")
 		)
 		(pin "1"
-			(uuid "a7db7635-b9b8-4b80-b8e9-83ac5548a03d")
+			(uuid "8c1a912a-15a0-4b6e-b040-c3a483753933")
 		)
 		(instances
 			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/a2257738-988b-4c05-a9d8-cdd2f99f1bd1"
+					(reference "BT47")
+					(unit 1)
+				)
 				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/db4835a0-391c-430e-bf67-929d80bdebb5"
 					(reference "BT43")
 					(unit 1)
