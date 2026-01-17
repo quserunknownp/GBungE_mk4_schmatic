@@ -1,0 +1,1698 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ef8fdff0-b108-4342-9bae-9b5dab3880f2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 106.68 57.15) (xy 113.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac572401-5e64-46d4-8db5-26d7e96fd356")
+	)
+	(hierarchical_label "+"
+		(shape input)
+		(at 113.03 133.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0250fc98-9271-4964-880b-29ba529f36e3")
+	)
+	(hierarchical_label "-"
+		(shape input)
+		(at 106.68 133.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d3c1400-f5d4-4af2-8cf7-20c79831e57a")
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11835733-7ead-4cf2-b9d6-34948102d51c")
+		(property "Reference" "BT1"
+			(at 102.87 62.8016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 60.2616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36cd4a51-f90b-4c84-aafc-d637532b66f5")
+		)
+		(pin "1"
+			(uuid "b014c207-c886-41ad-b895-801fad23d5bb")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT21")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2352266d-9451-4fe9-acdc-359e4fb86edf")
+		(property "Reference" "BT3"
+			(at 102.87 78.0416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 75.5016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd1ef545-42ff-499c-8625-5d8f646b2b8a")
+		)
+		(pin "1"
+			(uuid "67a744a6-87ca-4ef3-98ed-0b916069afe9")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT23")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42235d3e-43be-4b0a-b50d-6004d1fadc40")
+		(property "Reference" "BT10"
+			(at 102.87 131.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 128.8416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f620ca83-b932-4d4a-a89a-d6a9a2c03d04")
+		)
+		(pin "1"
+			(uuid "949bc92e-1614-4c10-8c3c-8122ed117eb9")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT30")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4670db74-b5dd-43ae-a591-424fe164c867")
+		(property "Reference" "BT16"
+			(at 116.84 97.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 99.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6999047a-6799-43ee-8295-da94e85055f5")
+		)
+		(pin "1"
+			(uuid "98844e89-9e1f-4d45-b1e4-34163052b573")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT36")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49718df1-5f92-4877-a955-27599808e173")
+		(property "Reference" "BT11"
+			(at 116.84 59.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 61.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efdfd518-1910-49c7-b3f8-13f6410b85c9")
+		)
+		(pin "1"
+			(uuid "c0647a5c-ff99-4ff4-a946-636eda082287")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT31")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5857e823-672e-4696-9b8d-0be78a0d2a8a")
+		(property "Reference" "BT7"
+			(at 102.87 108.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 105.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f3e36fd-f06a-48a0-8fc5-8aaa6ae843ad")
+		)
+		(pin "1"
+			(uuid "b175891c-8650-4be0-afef-6b57bd876298")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT27")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59efdfb8-62be-494a-accc-7e1d6762ec86")
+		(property "Reference" "BT6"
+			(at 102.87 100.9016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 98.3616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc13fcda-8f15-4dcc-a031-0b4fbeaee9b3")
+		)
+		(pin "1"
+			(uuid "09d44eba-3204-4b14-aff6-e2356276c71c")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT26")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64fbbb39-12da-4af0-8ff2-f22ebc769242")
+		(property "Reference" "BT17"
+			(at 116.84 104.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 107.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2da0fad2-2f83-4b85-99f1-b2bf6400e277")
+		)
+		(pin "1"
+			(uuid "bd56850e-d173-4219-b5d1-93a61a0b0e25")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT37")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7874424c-5b76-48ce-8a7a-da327c023276")
+		(property "Reference" "BT18"
+			(at 116.84 112.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 114.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ca82b45-dd3b-4e2d-a237-154b035cd1f9")
+		)
+		(pin "1"
+			(uuid "07554096-f554-4342-8003-942321a436c1")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT38")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80090cc5-3638-4e35-be3e-36ddecb251c3")
+		(property "Reference" "BT4"
+			(at 102.87 85.6616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 83.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a291ff4-a2e7-4ee9-ba29-e73f934a30e9")
+		)
+		(pin "1"
+			(uuid "1be60761-28ac-4685-9382-f3f670381acb")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT24")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84f0c575-33d1-4db6-aefd-1dbec012879a")
+		(property "Reference" "BT9"
+			(at 102.87 123.7616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 121.2216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adcee18f-5c5b-44cb-a184-6d60e9d9ffb1")
+		)
+		(pin "1"
+			(uuid "49da5352-6ab8-4197-bcaa-9154c770bba6")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT29")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99f3c6c6-417e-4cd9-979d-0aa90eab516a")
+		(property "Reference" "BT8"
+			(at 102.87 116.1416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 113.6016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fadcd975-3735-4153-aaf8-330ee407c0b8")
+		)
+		(pin "1"
+			(uuid "9e13e662-d2e7-4307-a645-4aeb0cf7a7f5")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT28")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d762de-4afe-4b1c-832d-ded0b2fcebcc")
+		(property "Reference" "BT14"
+			(at 116.84 81.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 84.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d504149b-3669-4aab-8e8d-18c9d2606c54")
+		)
+		(pin "1"
+			(uuid "b4fae234-8139-4a92-b9be-bcb0a293b4dd")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT34")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13f0aec-c916-42ca-9184-07373615d520")
+		(property "Reference" "BT15"
+			(at 116.84 89.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 92.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2a5287a-8801-49ee-9826-13e9c7d6d021")
+		)
+		(pin "1"
+			(uuid "b0a98d26-3d90-47b5-9e25-29d024422e7b")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT35")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7be8af0-98de-41df-b0f7-aadde4e79e13")
+		(property "Reference" "BT19"
+			(at 116.84 120.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 122.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac03d159-0a35-4947-9f76-13d3fe2425d9")
+		)
+		(pin "1"
+			(uuid "9fe80894-4691-413d-9097-07d210f71231")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT39")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb33101e-b175-4b28-8f41-c86eeab6d454")
+		(property "Reference" "BT20"
+			(at 116.84 127.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 130.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e4dfb48-6dc3-426a-acef-5a530f68c273")
+		)
+		(pin "1"
+			(uuid "3fce3a53-e617-49b5-a1ff-5ed05e00199e")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT40")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d381657f-b3c6-41b1-8686-efecc6c55414")
+		(property "Reference" "BT12"
+			(at 116.84 66.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 69.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29460b6a-72c8-4ea7-9b7a-b2dfd9b2f332")
+		)
+		(pin "1"
+			(uuid "f69d601a-390a-48b0-8189-c98e8a74fe11")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT32")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edc0d200-09d4-448d-bf78-e080ae2033ce")
+		(property "Reference" "BT2"
+			(at 102.87 70.4216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 67.8816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "134a4d5c-ed9c-4d1a-bfb2-4ce55beacd68")
+		)
+		(pin "1"
+			(uuid "a47d3eaa-e650-4d16-a484-039774afecb4")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT22")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 106.68 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f319f839-c8e8-4e4f-a504-cef70e03f414")
+		(property "Reference" "BT5"
+			(at 102.87 93.2816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 102.87 90.7416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "755b4699-ef04-4c66-ba80-d6b3ea83a0ca")
+		)
+		(pin "1"
+			(uuid "9cf14fb9-1628-4574-9078-60481cb302dd")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT25")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 113.03 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff099c4b-fc7b-42b8-9524-5bee62b3b1a9")
+		(property "Reference" "BT13"
+			(at 116.84 74.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 116.84 76.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6d4e1e1-5041-433e-a155-512db31cf955")
+		)
+		(pin "1"
+			(uuid "50339cb7-3071-4155-ad8b-27fdbf5ed9de")
+		)
+		(instances
+			(project "003_GBungE_mk4_sch"
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/1411c0dd-1cee-4757-a454-613e409cc749"
+					(reference "BT33")
+					(unit 1)
+				)
+				(path "/09b8d7c9-8800-47ef-b1a9-3a600123cfc9/26e0ced3-9082-4bf8-a499-2e85156357dd"
+					(reference "BT13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
